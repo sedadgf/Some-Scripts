@@ -1,0 +1,11 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{	
+		Console.WriteLine("Bir kelime yaziniz... Please type a word...");
+		String s=Console.ReadLine();
+		Console.WriteLine(s.Substring(1));
+	}
+}
